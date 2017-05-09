@@ -1,0 +1,61 @@
+
+body{
+    font-size:20px;
+}
+
+
+
+/*essas medidas depende do elemento-pai caso nao seja expecificado, são elas 
+: em , % , ex
+
+*/
+
+/*medidas em */
+p{
+   line-height: 1.2em; /*espaçamento entre linhas 20% maior, que o tamanho da font especificando*/
+}
+.em{
+    font-size: 1.5em; /* 150% * body{font-size: 20px;} */
+}
+
+/* medidas  porcent % */
+.index-piece {
+  width: 500px; /* Largura */
+  border: solid 1px #cecece;
+}
+
+.index-piece .news {
+  width: 50%; /* Largura */
+  border: solid 1px orange;
+}
+
+
+/*medidas absulutas(nao depende de relação com outros elementos).em
+cm = centimetros
+mm = milimetros
+in = (1 in = 2,54cm)
+pt = (1 pt = 1/72 de 1 in)
+pc = (1 pc = 12 pt)
+*/
+
+
+h2 {
+  margin: 0.5in; /* inches */
+}
+
+h3 {
+  line-height: 3cm; /* centimeters */
+}
+
+h4 {
+  word-spacing: 4mm; /* millimeters */
+}
+
+h5 {
+  font-size: 12pt; /* points */
+}
+
+h6 {
+  font-size: 1pc; /* picas */
+}
+
