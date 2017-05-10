@@ -36,6 +36,11 @@ mm = milimetros
 in = (1 in = 2,54cm)
 pt = (1 pt = 1/72 de 1 in)
 pc = (1 pc = 12 pt)
+
+outras
+
+
+ch, rem, vw,  vmin, vmax.
 */
 
 
@@ -58,4 +63,9 @@ h5 {
 h6 {
   font-size: 1pc; /* picas */
 }
+
+/*
+notas: 
+web design responsivo, geralmente se usa em para medidas de fontes e % para medidas de layout
+*/
 
