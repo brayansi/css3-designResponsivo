@@ -1,0 +1,45 @@
+    .no-margin-right {
+            margin-right: 0 !important;
+        }
+        
+        .main {
+            margin: 0 auto;
+            width: 72%;
+            /* 960px */
+        }
+        
+        .container {
+            float: left;
+            margin-right: 3.125%;
+            /* 30 / 960 */
+            width: 29.16666666666667%;
+            /* 280 / 960 */
+        }
+        
+        .news {
+            position: relative;
+        }
+        
+        .news .title {
+            font-size: 1.5625em;
+            /* 25 / 16 ("convenção" de 16px) */
+        }
+        
+        .news .intro {
+            font-size: 1em;
+            /* 16 / 16 */
+        }
+        
+        .news .more {
+            float: right;
+        }
+        
+        @media only screen and (max-width: 640px) {
+            .container {
+                float: none;
+                width: 100%;
+            }
+            .news .more {
+                float: none;
+            }
+        }
